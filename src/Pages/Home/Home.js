@@ -1,9 +1,10 @@
 import React from 'react';
+import TopSection from './TopSection/TopSection';
 
 const Home = () => {
     return (
         <div>
-            <h1>this is home</h1>
+            <TopSection></TopSection>
         </div>
     );
 };

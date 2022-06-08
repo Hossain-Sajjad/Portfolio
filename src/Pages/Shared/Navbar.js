@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../resume/Resume_HossainSajjad.pdf'
 
 const Navbar = () => {
     return (
@@ -15,14 +16,14 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">HOSSAIN SAJJAD</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0">
-                    <li><a>Contact</a></li>
-                    <li><a>Projects</a></li>
-                </ul>
-            </div>
             <div className="navbar-end">
-                <a className="btn">Download Resume</a>
+                <div className="hidden lg:flex">
+                    <ul className="menu menu-horizontal p-0">
+                        <li><a>Contact</a></li>
+                        <li><a>Projects</a></li>
+                    </ul>
+                </div>
+                <a href={resume} download className="btn">Download Resume</a>
             </div>
         </div>
     );
