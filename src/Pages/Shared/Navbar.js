@@ -3,7 +3,7 @@ import resume from '../../resume/Resume_HossainSajjad.pdf'
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 uppercase">
+        <div className="navbar uppercase bg-[#010101]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">
@@ -19,11 +19,11 @@ const Navbar = () => {
             <div className="navbar-end">
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        <li><a>Contact</a></li>
+                        <li><a href='#contact-section'>Contact</a></li>
                         <li><a>Projects</a></li>
                     </ul>
                 </div>
-                <a href={resume} download className="btn">Download Resume</a>
+                <a href={resume} download className="btn btn-primary text-white">Download Resume</a>
             </div>
         </div>
     );
