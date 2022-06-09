@@ -1,6 +1,7 @@
 import React from 'react';
 import './TopSection.css'
 import resume from '../../../resume/Resume_HossainSajjad.pdf'
+import { Typewriter } from 'react-simple-typewriter'
 
 const TopSection = () => {
     return (
@@ -14,7 +15,19 @@ const TopSection = () => {
                     </div>
                     <div className='mr-48'>
                         <h1 className="text-5xl uppercase">I'M Hossain Sajjad</h1>
-                        <p className="text-3xl py-6">WEB DEVELOPER</p>
+                        <span className='text-primary'>
+                            {/* Style will be inherited from the parent element */}
+                            <Typewriter
+                                words={['Repeat!', 'hello']}
+                                loop={5}
+                                cursor
+                                cursorStyle='_'
+                            // typeSpeed={70}
+                            // deleteSpeed={50}
+                            // delaySpeed={1000}
+                            />
+                        </span>
+                        <p className="text-3xl py-6 uppercaseyarn add react-simple-typewriter">WEB DEVELOPER | React Developer</p>
                         <a href={resume} download className="btn btn-primary text-white">Download Resume</a>
                     </div>
                 </div>

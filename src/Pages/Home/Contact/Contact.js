@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -10,9 +12,9 @@ const Contact = () => {
 
         emailjs.sendForm('service_zks8wjh', 'template_3t63z0u', form.current, 'XQMtjZ2zckXJZNmeX')
             .then((result) => {
-                console.log(result.text);
+                toast.success("Massage sent successfully!");
             }, (error) => {
-                console.log(error.text);
+                toast.error("Failed to sent massage!");
             });
         e.target.reset();
     };
@@ -24,31 +26,32 @@ const Contact = () => {
                     <h1 class="text-5xl font-bold">Contact now!</h1>
                     <p class="py-6">Massage me directly if you have any type of query or want to say anything.</p>
                 </div>
-                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#f5f5f5]">
                     <div class="card-body">
                         <form ref={form} onSubmit={sendEmail}>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Name</span>
+                                    <span class="label-text text-primary font-bold">Name</span>
                                 </label>
-                                <input type="text" name="from_name" placeholder="name" class="input input-bordered" />
+                                <input type="text" name="from_name" placeholder="name" class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Email</span>
+                                    <span class="label-text text-primary font-bold">Email</span>
                                 </label>
-                                <input type="text" name="from_email" placeholder="email" class="input input-bordered" />
+                                <input type="text" name="from_email" placeholder="email" class="input input-bordered" required />
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">Massage</span>
+                                    <span class="label-text text-primary font-bold">Massage</span>
                                 </label>
-                                <textarea type="text" name="message" placeholder="massage" class="input input-bordered" />
+                                <textarea type="text" name="message" placeholder="massage" class="input input-bordered" required />
                             </div>
                             <div class="form-control mt-6">
-                                <input type="submit" value="Send" className='btn btn-primary' />
+                                <input type="submit" value="Send" className='btn btn-primary text-white font-bold' />
                             </div>
                         </form>
+                        <ToastContainer />
                     </div>
                 </div>
             </div>
