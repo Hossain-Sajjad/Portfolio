@@ -22,9 +22,9 @@ const TopSection = () => {
                                 loop={5}
                                 cursor
                                 cursorStyle='_'
-                            // typeSpeed={70}
-                            // deleteSpeed={50}
-                            // delaySpeed={1000}
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
                             />
                         </span>
                         <p className="text-3xl py-6 uppercaseyarn add react-simple-typewriter">WEB DEVELOPER | React Developer</p>

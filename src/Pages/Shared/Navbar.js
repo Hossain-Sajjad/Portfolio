@@ -14,7 +14,7 @@ const Navbar = () => {
                         <li><a>Projects</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">HOSSAIN SAJJAD</a>
+                <a href='/' className="btn btn-ghost normal-case text-xl">HOSSAIN SAJJAD</a>
             </div>
             <div className="navbar-end">
                 <div className="hidden lg:flex">
