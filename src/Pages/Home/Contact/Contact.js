@@ -26,7 +26,7 @@ const Contact = () => {
                     <h1 class="text-5xl font-bold">Contact now!</h1>
                     <p class="py-6 text-primary">Massage me directly if you have any type of query or want to say anything.</p>
                 </div>
-                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#f5f5f5]">
+                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#f5f5f5]" data-aos="flip-left">
                     <div class="card-body">
                         <form ref={form} onSubmit={sendEmail}>
                             <div class="form-control">

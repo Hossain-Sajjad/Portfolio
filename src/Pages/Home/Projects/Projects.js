@@ -9,7 +9,7 @@ const Projects = () => {
             <div className='lg:mx-12 pt-24'>
                 <h3 className='text-center text-2xl font-semibold mb-12'>My Projects</h3>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 w-full'>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
+                    <div class="card w-96 bg-base-100 shadow-xl image-full" data-aos="zoom-in-right">
                         <figure><img src={Project1} alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Hossain Manufacturing</h2>
@@ -19,7 +19,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
+                    <div class="card w-96 bg-base-100 shadow-xl image-full" data-aos="zoom-in-up">
                         <figure><img src={Project3} alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Event Management</h2>
@@ -29,7 +29,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full">
+                    <div class="card w-96 bg-base-100 shadow-xl image-full" data-aos="zoom-in-left">
                         <figure><img src={Project2} alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Hossain Electronics</h2>

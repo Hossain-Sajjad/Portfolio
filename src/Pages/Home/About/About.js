@@ -3,7 +3,8 @@ import Img from '../../../images/about-png.png'
 
 const About = () => {
     return (
-        <div id='about-section' class="hero min-h-screen">
+        <div id='about-section' data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="avatar">
                     <div class="ring ring-primary rounded-xl ring-offset-base-100 ring-offset-2">

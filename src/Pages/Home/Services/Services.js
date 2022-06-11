@@ -7,7 +7,7 @@ const Services = () => {
                 <h3 className='text-center text-2xl font-semibold mb-4'>What I Do?</h3>
                 <h3 className='text-center text-xl text-primary mb-12'>My regular services</h3>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 w-full'>
-                    <div class="card card-compact bg-base-100 shadow-xl bg-primary text-white">
+                    <div data-aos="fade-up-right" class="card card-compact bg-base-100 shadow-xl bg-primary text-white">
                         <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnI3sD_rkvV-vJzto3xyftE-MDVATWczuTHg&usqp=CAU" className='w-full' alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Plain HTML and CSS responsive website</h2>
@@ -19,7 +19,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card bg-base-100 shadow-xl bg-primary text-white">
+                    <div data-aos="fade-up-left" class="card bg-base-100 shadow-xl bg-primary text-white">
                         <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEVa57a2-t6RbrEpwJlvXRN9faQG_rG_9og&usqp=CAU" className='w-full' alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">SPA with React</h2>
@@ -31,7 +31,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card bg-base-100 shadow-xl bg-primary text-white">
+                    <div data-aos="fade-up-right" class="card bg-base-100 shadow-xl bg-primary text-white">
                         <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-VIYNkS-Hsk6R7hChTDyUq3Q_D2-IsR-JvQ&usqp=CAU" className='w-full' alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">MERN stack web application</h2>
