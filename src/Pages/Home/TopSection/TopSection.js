@@ -10,8 +10,7 @@ const TopSection = () => {
                 <div className="hero-content flex-col-reverse lg:flex-row-reverse w-screen">
                     <div data-aos="zoom-in-bottom" className='lg:ml-28'>
                         <h1 className="text-5xl uppercase">I'M Hossain Sajjad</h1>
-                        <span className='text-primary'>
-                            {/* Style will be inherited from the parent element */}
+                        {/* <span className='text-primary'>
                             <Typewriter
                                 words={['Repeat!', 'hello']}
                                 loop={5}
@@ -21,7 +20,7 @@ const TopSection = () => {
                                 deleteSpeed={50}
                                 delaySpeed={1000}
                             />
-                        </span>
+                        </span> */}
                         <p className="text-3xl py-6 uppercaseyarn add react-simple-typewriter uppercase">WEB DEVELOPER | React Developer</p>
                         <a href={resume} download className="btn btn-primary text-white">Download Resume</a>
                     </div>
