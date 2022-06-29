@@ -29,7 +29,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="card w-96 bg-base-100 shadow-xl image-full" data-aos="zoom-in-left">
+                    <div class="card w-96 bg-base-100 shadow-xl image-full" data-aos="zoom-in-bottom">
                         <figure><img src={Project2} alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">Hossain Electronics</h2>

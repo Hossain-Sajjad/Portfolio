@@ -19,7 +19,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up-left" class="card bg-base-100 shadow-xl bg-primary text-white">
+                    <div data-aos="fade-up-top" class="card bg-base-100 shadow-xl bg-primary text-white">
                         <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEVa57a2-t6RbrEpwJlvXRN9faQG_rG_9og&usqp=CAU" className='w-full' alt="Shoes" /></figure>
                         <div class="card-body">
                             <h2 class="card-title">SPA with React</h2>
